@@ -1,0 +1,53 @@
+#football{
+	background-color: green;
+	width: 1000px;
+	height: 500px;
+}
+.contorno{
+  width: 950px;
+  height: 450px;
+  border: 5px solid white;
+  margin: 10px;
+   position: relative;
+  top: 20px;
+  left: 10px;
+}
+.linea{
+	display:inline-block;
+  border: 5px solid white;
+   position: absolute;
+   top:130px;
+}
+.porteria1, .porteria2{
+	width: 100px;
+   height: 170px;
+
+}
+.circulo{
+	border-radius: 100%;
+    width:150px;
+    height:150px;
+   	left: 43%;
+}
+.porteria1{
+  	left:0px;
+
+}
+.porteria2{
+	 right: 0px;
+}
+.uno{
+	 position: absolute;
+  top: 135px;
+  left: 95px;
+}
+.dos{
+	position: absolute;
+  top: 53px;
+   right:420px;
+}
+.tres{
+position: absolute;
+  bottom: 143px;
+  right: 114px;
+}
